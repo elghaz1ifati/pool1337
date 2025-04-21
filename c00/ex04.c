@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <stdio.h>
 
 void ft_is_negative(int n){
     if (n<=0){
@@ -8,8 +7,3 @@ void ft_is_negative(int n){
         write(1,"P",1);
     }
 }
-
-// int main(){
-//     ft_is_negative(-2);
-//     return 0;
-// }
