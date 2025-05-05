@@ -8,7 +8,7 @@ void ft_put_str(char *str){
  }
 }
 int main (){
-    char word[] = "I love C";
-    char *str = word;
+    char sentence[] = "I love C";
+    char *str = sentence;
     ft_put_str(str);
 }
